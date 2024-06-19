@@ -160,6 +160,7 @@ Apple nous fournit quelques principes de conception pour toutes les différentes
 
 ## Core Data
 * [Core Data](https://developer.apple.com/documentation/coredata)
+* [Core Data by Big Mountain](https://www.bigmountainstudio.com/core-data)
 * [Beginning Core Data](https://www.raywenderlich.com/7104-beginning-core-data)
 * [Intermadiate Core Data](https://www.raywenderlich.com/3815-intermediate-core-data)
 * [Multiple Contexts in Core Data](https://www.raywenderlich.com/7586-multiple-managed-object-contexts-with-core-data-tutorial)
