@@ -1,40 +1,37 @@
-# How-to-become-an-iOS-Developer
+# Comment devenir un développeur iOS
 L'objectif de ce document est la création d'un référentiel contenant des informations sur la façon de commencer et de progresser dans ma carrière en devenant un développeur iOS expert. Ce document pourrait également servir de guide d'entretien pour couvrir les sujets les plus importants.
 
-# ⚠️Disclaimer⚠️
-The following information is **work in progress**. Feel free to create a pull request if you think a topic/tutorial/course is important to be here.
+# Comment commencer ?
+Si vous n'êtes pas nouveau dans le monde de la programmation, mais que vous êtes pour iOS, suivez ce qui suit [quick guide](https://github.com/pitt500/how-to-become-an-ios-developer/blob/master/QuickGuide.md) d'abord. Si vous avez déjà de l'expérience avec iOS et que vous voulez dominer tous les sujets pour devenir un expert, veuillez continuer à lire le document.
 
-# How to start?
-If you aren't new in the programming world, but yes for iOS, follow this [quick guide](https://github.com/pitt500/how-to-become-an-ios-developer/blob/master/QuickGuide.md) first. If you have experience with iOS already and you wanted to dominate more about all the topics to become an expert, please continue reading the document.
-
-# Two sides
-Let's divide the roadmap in two major topics:
+# Deux façons
+Divisons la feuille de route en deux grands thèmes :
 * [Computer Science](#computer-science).
 
-This topic is frequently ignored by some developers thinking that mobile devs "don't need" to build complex algorithms. This is a wrong assumption. If you want to become the best developer (doesn't matter the language or platform), you should study algorithms and know the most used data structures very well.
+Ce sujet est souvent ignoré par certains développeurs qui pensent que les développeurs mobiles "n'ont pas besoin" de construire des algorithmes complexes. Il s'agit d'une hypothèse erronée. Si vous voulez devenir le meilleur développeur (peu importe le langage ou la plateforme), vous devez étudier les algorithmes et connaître les structures de données les plus utilisées.
 
 * [iOS](#ios).
 
-iOS world is vast. There are a lot of topics to learn from Cocoa/Cocoa Touch, design patterns, software architectures and of course, Swift and Objective-C languages. This guide will help you to focus and find a way to study all those concepts.
+Le monde de l'iOS est vaste. Il y a beaucoup de sujets à apprendre depuis Cocoa/Cocoa Touch, les design patterns, les architectures logicielles et bien sûr, les langages Swift et Objective-C. Ce guide vous aidera à vous concentrer et à trouver un moyen d'étudier tous ces concepts.
 
-# Computer Science
-The following list are the base concepts to learn and being on shape with computer science topics:
+# Informatique
+La liste suivante présente les concepts de base à apprendre et à mettre en forme dans le domaine de l'informatique :
 * [Algorithms](#algorithms)
 * [Data Structures](#data-structures)
 
-### References for studying:
+### Références pour l'étude :
 * [Swift Algorithm Club](https://github.com/raywenderlich/swift-algorithm-club)
 * [Cracking the coding interview](http://www.crackingthecodinginterview.com/)
 * [CLRS](https://www.amazon.com.mx/gp/product/0262033844/ref=ox_sc_saved_title_6?smid=AVDBXBAVVSXLQ&psc=1)
 
-## Algorithms
+## Algorithmes
 * [Big-O Notation](https://www.youtube.com/watch?v=D6xkbGLQesk)
 * [Bit Manipulation](https://docs.swift.org/swift-book/LanguageGuide/AdvancedOperators.html)
 * [Sorting](https://github.com/raywenderlich/swift-algorithm-club#sorting)
 * [Recursion](https://www.youtube.com/watch?v=B0NtAFf4bvU)
 * [Dynamic Programming](https://www.byte-by-byte.com/dpbook/)
 
-> Check [Cracking the coding interview](http://www.crackingthecodinginterview.com/) for more details
+> Vérifier [Cracking the coding interview](http://www.crackingthecodinginterview.com/) pour plus de détails
 
 ## Data Structures
 * [Arrays](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)
@@ -47,11 +44,11 @@ The following list are the base concepts to learn and being on shape with comput
 * [Trees](https://github.com/raywenderlich/swift-algorithm-club#trees)
 * [Graphs](https://github.com/raywenderlich/swift-algorithm-club#graphs)
 
-> Check [Swift Algorithm Club](https://github.com/raywenderlich/swift-algorithm-club) for more details
+> Vérifier [Swift Algorithm Club](https://github.com/raywenderlich/swift-algorithm-club) pour plus de details
 
 
 # iOS
-The following list include the most important concepts you should know in order to develop apps for iOS:
+La liste suivante comprend les concepts les plus importants que vous devez connaître pour développer des applications pour iOS :
 * [Languages](#languages)
 * [Memory Management](#memory-management)
 * [Multithreading](#multithreading)
@@ -69,11 +66,11 @@ The following list include the most important concepts you should know in order 
 * [Architecture](#architecture)
 * [Debugging](#Debugging)
 
-# Languages
-iOS Support two languages: Objective-C (used for two decades) and Swift from 2014. You can create apps with a single of these languages or mix them if it's convinient. Nowadays, Apple take Swift as its main language for development, however, there are a lot of legacy apps that still require support from Objective-C (because is expensive and time consuming doing a migration), that's why it's important to know both of them.
+# Langages
+iOS supporte deux langages : Objective-C (utilisé depuis deux décennies) et Swift depuis 2014. Vous pouvez créer des applications avec un seul de ces langages ou les mélanger si cela vous convient. Aujourd'hui, Apple a choisi Swift comme langage principal pour le développement, cependant, il y a beaucoup d'applications anciennes qui nécessitent encore le support de l'Objective-C (parce qu'il est coûteux et long de faire une migration), c'est pourquoi il est important de connaître les deux langages.
 
-## Which language to learn?
-If you are new and wonder where to start, I recommend you to start with Swift, because it's well robust and supported today, keep it as the main language to develop iOS apps, but also keep knowledge of Objective-C, that will help you in interviews or situations when you require to interact with it.
+## Quelle langue apprendre ?
+Si vous êtes nouveau et que vous vous demandez par où commencer, je vous recommande de commencer par Swift, parce qu'il est bien robuste et supporté aujourd'hui, de le garder comme langage principal pour développer des applications iOS, mais aussi de garder des connaissances en Objective-C, qui vous aideront lors d'entretiens ou dans des situations où vous aurez besoin d'interagir avec ce langage.
 
 ## Swift
 * [Official website](https://swift.org/)
@@ -123,7 +120,7 @@ If you are new and wonder where to start, I recommend you to start with Swift, b
 * [App Distribution from Ad-hoc to Enterprise](https://developer.apple.com/videos/play/wwdc2019/304/)
 
 # Design Patterns
-Design patterns are templates to problems well known and help us to builds apps with great quality, maintenance, and scalability. The following resources will help you to learn more about those patterns used in iOS.
+Les patrons de conception sont des modèles qui répondent à des problèmes bien connus et qui nous aident à créer des applications de grande qualité, faciles à entretenir et évolutives. Les ressources suivantes vous aideront à en savoir plus sur les modèles utilisés dans iOS.
 
 * [Design Patterns in Swift](https://refactoring.guru/design-patterns/swift)
 * [Design Patterns by Tutorials](https://store.raywenderlich.com/products/design-patterns-by-tutorials)
@@ -133,7 +130,7 @@ Design patterns are templates to problems well known and help us to builds apps 
 * [Protocol-Oriented Programming](https://developer.apple.com/videos/play/wwdc2015/408/)
 
 # Human Interface Guidelines
-Apple provide us some design principles for all the different platforms in its ecosytem like macOS, WatchOS, tvOS and of course iOS (iPadOS included). Learn this topic in order to provide a better user experience for your users in all your apps. That's makes the difference between "another random app" and "the app taht everybody wants and know how to use it".
+Apple nous fournit quelques principes de conception pour toutes les différentes plateformes de son écosystème comme macOS, WatchOS, tvOS et bien sûr iOS (iPadOS inclus). Apprenez ce sujet afin de fournir une meilleure expérience utilisateur à vos utilisateurs dans toutes vos apps. C'est ce qui fait la différence entre "une autre application aléatoire" et "l'application que tout le monde veut et sait utiliser".
 
 * [Human Interface Guidelines for iOS](https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/)
 
